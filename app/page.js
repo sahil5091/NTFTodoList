@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { db } from "./firebaseconfig";
-import {  } from "./firebase/firestore"
+import { db } from "./firebaseConfig.js";
+// import {  } from "./firebase/firestore"
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <h1>Todo List</h1>
+    <h1 className="list text-white" >Todo List</h1>
     </main>
   );
 }
