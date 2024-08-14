@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { db } from "./firebaseConfig.js";
-// import {  } from "./firebase/firestore"
 
 export default function Home() {
   return (
